@@ -1,0 +1,134 @@
+body {
+  background-color: papayawhip;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Times New Roman, serif;
+}
+
+.container {
+  background-color: thistle;
+  width: 550px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: purple;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#time {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 20px 0;
+}
+
+.digits {
+  font-size: 70px;
+  color: papayawhip;
+  margin: 0 5px;
+  padding: 10px;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 20px;
+  color: hotpink;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+.btn1, .btn3, .btn4 {
+  width: 90px;
+  height: 50px;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+  color: white;
+  font-weight: 550;
+  border: 0;
+  font-family: Times New Roman, serif;
+}
+
+.btn1:hover, .btn3:hover, .btn4:hover {
+  color: indigo;
+}
+
+#start-pause {
+  background-color: indigo;
+}
+
+#reset {
+  background-color: plum;
+}
+
+#lap {
+  background-color: lightcoral;
+}
+
+#start-pause:hover, #reset:hover, #lap:hover {
+  background-color: white;
+}
+
+#lapsContainer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+}
+
+#lapsContainer p {
+  margin: 0;
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#laps {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.lap-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: purple;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.delete-lap {
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.delete-lap:hover {
+  background-color: white;
+  color: lightcoral;
+}
